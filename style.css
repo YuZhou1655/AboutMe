@@ -8,15 +8,19 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #FFFFFF;
+}
+
+.UYULogo {
+  max-height: 7vh;
 }
 
 nav {
   height: auto;
   opacity: 1;
-  font-size: 1vw;
-  text-align: right;
+  font-size: 1.3vw;
 }
+
 
 .nav1 ul {
   list-style: none;
@@ -25,23 +29,24 @@ nav {
 
 .nav1 li {
   display: inline-block;
-  padding: 1%;
-}
-
-.Home {
-  color: #e0afa0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 2%;
 }
 
 .Button {
-  color: black;
+  color: #000000;
   list-style: none;
   text-decoration: none;
+  font-family: "Bebas Neue", cursive;
 }
 
 .Button:hover {
-  color: black;
+  color: #000000;
   text-decoration: underline;
   list-style: none;
+  font-family: "Bebas Neue", cursive;
 }
 
 .cover {
@@ -82,6 +87,7 @@ nav {
   position: relative;
   font-family: "Bebas Neue", cursive;
   color: white;
+  padding-left: 5vw;
   text-align: left;
   margin: 0.625rem;
 }
@@ -100,10 +106,12 @@ nav {
   margin-top: 1rem;
 }
 
+
 .Content {
   display: inline-block;
   box-sizing: border-box;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 .imgL {
@@ -148,7 +156,6 @@ nav {
 .imgNote {
   font-family: "Bebas Neue", cursive;
   font-size: 1vw;
-  font-size: 1vw;
   color: #463f3a;
   text-align: center;
   margin: 1%;
@@ -186,8 +193,9 @@ nav {
 
 .header {
   font-family: "Bebas Neue", cursive;
-  font-size: 3.8vw;
   font-size: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   color: #463f3a;
   text-align: center;
   margin: auto;
@@ -196,7 +204,8 @@ nav {
 .subheader {
   font-family: "Bebas Neue", cursive;
   font-size: 3.1vw;
-  font-size: 3.1vw;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
   color: #463f3a;
   text-align: center;
   margin: auto;
@@ -205,7 +214,8 @@ nav {
 .subsubheader {
   font-family: "Bebas Neue", cursive;
   font-size: 2.2vw;
-  font-size: 2.2vw;
+  padding-top: 1.5vh;
+  padding-bottom: 0.8vh;
   color: #463f3a;
   text-align: center;
 }
@@ -213,7 +223,6 @@ nav {
 
 .subcontent {
   font-family: "Oswald", sans-serif;
-  font-size: 1.3vw;
   font-size: 1.3vw;
   margin-left: 10%;
   margin-right: 10%;
@@ -242,36 +251,40 @@ nav {
 }
 
 .Contact {
-  font-family: "Oswald", sans-serif;
-  background-color: #dedede;
+  margin-top: 5vh;
+  background-color: white;
   padding: 1%;
   text-align: left;
+  outline: 1vh solid black;
 }
 
 table {
   font-family: "Oswald", sans-serif;
   border-collapse: collapse;
-  width: 90%; /* Adjust the width as needed */
-  margin-top: 1%; /* Adjust the top margin as needed */
-  margin-bottom:1%;
-  margin-left:auto;
-  margin-right:auto;
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
-th, td {
+th,
+td {
   padding: 0.5%;
 }
 
 th {
   font-weight: bold;
 }
+
 .sidebar {
   height: auto;
   width: auto;
   position: fixed;
   margin-top: 25vh;
-  margin-left:93%;
+  margin-left: 93%;
   background-color: #f5f5f5;
   border-radius: 5%;
   text-align: center;
@@ -280,16 +293,15 @@ th {
 .sidebar a {
   padding-top: 2vh;
   padding-bottom: 2vh;
-  padding-left:1vw;
-  padding-right:1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   font-size: 1vw;
-  color: black;
+  color: #000000;
   display: block;
   text-decoration: none;
 }
 
 .sidebar a:hover {
-  color: black;
+  color: #000000;
   text-decoration: underline;
 }
-
